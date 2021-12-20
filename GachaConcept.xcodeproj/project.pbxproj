@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3164A9AEDC1482CF6DFCD1D6 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78DC68EC5BE9CEA8FFC86D9 /* Pods_Test.framework */; };
 		F610EDAE275C3E0E000DFD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDAD275C3E0E000DFD05 /* AppDelegate.swift */; };
 		F610EDB0275C3E0E000DFD05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDAF275C3E0E000DFD05 /* SceneDelegate.swift */; };
-		F610EDB2275C3E0E000DFD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDB1275C3E0E000DFD05 /* ViewController.swift */; };
+		F610EDB2275C3E0E000DFD05 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDB1275C3E0E000DFD05 /* NavigationController.swift */; };
 		F610EDB5275C3E0E000DFD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F610EDB3275C3E0E000DFD05 /* Main.storyboard */; };
 		F610EDB7275C3E29000DFD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F610EDB6275C3E29000DFD05 /* Assets.xcassets */; };
 		F610EDBA275C3E29000DFD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F610EDB8275C3E29000DFD05 /* LaunchScreen.storyboard */; };
+		F610EDC2275C4CB3000DFD05 /* UserViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDC1275C4CB3000DFD05 /* UserViewConroller.swift */; };
+		F610EDC4275EBE78000DFD05 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDC3275EBE78000DFD05 /* CustomButton.swift */; };
+		F610EDC6275EC5D1000DFD05 /* GachaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDC5275EC5D1000DFD05 /* GachaCell.swift */; };
+		F610EDC8275EC6E3000DFD05 /* Gacha.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDC7275EC6E3000DFD05 /* Gacha.swift */; };
+		F610EDCA275ED0CA000DFD05 /* MyGachas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDC9275ED0C9000DFD05 /* MyGachas.swift */; };
+		F610EDCC275EFCF0000DFD05 /* GachaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDCB275EFCF0000DFD05 /* GachaViewController.swift */; };
+		F610EDCE275EFD74000DFD05 /* Purse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610EDCD275EFD74000DFD05 /* Purse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F610EDAA275C3E0E000DFD05 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1399E7788851FA481102B894 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		95030B949F5D11A4A00B15D7 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		C78DC68EC5BE9CEA8FFC86D9 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F610EDAA275C3E0E000DFD05 /* GachaConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GachaConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F610EDAD275C3E0E000DFD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F610EDAF275C3E0E000DFD05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F610EDB1275C3E0E000DFD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F610EDB1275C3E0E000DFD05 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		F610EDB4275C3E0E000DFD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F610EDB6275C3E29000DFD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F610EDB9275C3E29000DFD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F610EDBB275C3E29000DFD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F610EDC1275C4CB3000DFD05 /* UserViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewConroller.swift; sourceTree = "<group>"; };
+		F610EDC3275EBE78000DFD05 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F610EDC5275EC5D1000DFD05 /* GachaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaCell.swift; sourceTree = "<group>"; };
+		F610EDC7275EC6E3000DFD05 /* Gacha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gacha.swift; sourceTree = "<group>"; };
+		F610EDC9275ED0C9000DFD05 /* MyGachas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGachas.swift; sourceTree = "<group>"; };
+		F610EDCB275EFCF0000DFD05 /* GachaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaViewController.swift; sourceTree = "<group>"; };
+		F610EDCD275EFD74000DFD05 /* Purse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,60 +49,105 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3164A9AEDC1482CF6DFCD1D6 /* Pods_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834CB8A07FFC52D9FD6F31F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78DC68EC5BE9CEA8FFC86D9 /* Pods_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3277E68FBC3542ABDDE8A17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95030B949F5D11A4A00B15D7 /* Pods-Test.debug.xcconfig */,
+				1399E7788851FA481102B894 /* Pods-Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F610EDA1275C3E0E000DFD05 = {
 			isa = PBXGroup;
 			children = (
-				F610EDAC275C3E0E000DFD05 /* Test */,
+				F610EDAC275C3E0E000DFD05 /* GachaConcept */,
 				F610EDAB275C3E0E000DFD05 /* Products */,
+				F3277E68FBC3542ABDDE8A17 /* Pods */,
+				834CB8A07FFC52D9FD6F31F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F610EDAB275C3E0E000DFD05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F610EDAA275C3E0E000DFD05 /* Test.app */,
+				F610EDAA275C3E0E000DFD05 /* GachaConcept.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F610EDAC275C3E0E000DFD05 /* Test */ = {
+		F610EDAC275C3E0E000DFD05 /* GachaConcept */ = {
 			isa = PBXGroup;
 			children = (
+				F610EDCF275F315A000DFD05 /* Views */,
+				F610EDD0275F3186000DFD05 /* Models */,
 				F610EDAD275C3E0E000DFD05 /* AppDelegate.swift */,
 				F610EDAF275C3E0E000DFD05 /* SceneDelegate.swift */,
-				F610EDB1275C3E0E000DFD05 /* ViewController.swift */,
+				F610EDB1275C3E0E000DFD05 /* NavigationController.swift */,
 				F610EDB3275C3E0E000DFD05 /* Main.storyboard */,
 				F610EDB6275C3E29000DFD05 /* Assets.xcassets */,
 				F610EDB8275C3E29000DFD05 /* LaunchScreen.storyboard */,
 				F610EDBB275C3E29000DFD05 /* Info.plist */,
+				F610EDC1275C4CB3000DFD05 /* UserViewConroller.swift */,
+				F610EDCB275EFCF0000DFD05 /* GachaViewController.swift */,
 			);
-			path = Test;
+			path = GachaConcept;
+			sourceTree = "<group>";
+		};
+		F610EDCF275F315A000DFD05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F610EDC9275ED0C9000DFD05 /* MyGachas.swift */,
+				F610EDC3275EBE78000DFD05 /* CustomButton.swift */,
+				F610EDC5275EC5D1000DFD05 /* GachaCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F610EDD0275F3186000DFD05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F610EDC7275EC6E3000DFD05 /* Gacha.swift */,
+				F610EDCD275EFD74000DFD05 /* Purse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F610EDA9275C3E0E000DFD05 /* Test */ = {
+		F610EDA9275C3E0E000DFD05 /* GachaConcept */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F610EDBE275C3E29000DFD05 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = F610EDBE275C3E29000DFD05 /* Build configuration list for PBXNativeTarget "GachaConcept" */;
 			buildPhases = (
+				405B2C987A4FDA5E9D2B7A32 /* [CP] Check Pods Manifest.lock */,
 				F610EDA6275C3E0E000DFD05 /* Sources */,
 				F610EDA7275C3E0E000DFD05 /* Frameworks */,
 				F610EDA8275C3E0E000DFD05 /* Resources */,
+				0B41C486752E7ACFF17F50F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = GachaConcept;
 			productName = Test;
-			productReference = F610EDAA275C3E0E000DFD05 /* Test.app */;
+			productReference = F610EDAA275C3E0E000DFD05 /* GachaConcept.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F610EDA5275C3E0E000DFD05 /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = F610EDA5275C3E0E000DFD05 /* Build configuration list for PBXProject "GachaConcept" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F610EDA9275C3E0E000DFD05 /* Test */,
+				F610EDA9275C3E0E000DFD05 /* GachaConcept */,
 			);
 		};
 /* End PBXProject section */
@@ -133,14 +196,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B41C486752E7ACFF17F50F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405B2C987A4FDA5E9D2B7A32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F610EDA6275C3E0E000DFD05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F610EDB2275C3E0E000DFD05 /* ViewController.swift in Sources */,
+				F610EDB2275C3E0E000DFD05 /* NavigationController.swift in Sources */,
+				F610EDC2275C4CB3000DFD05 /* UserViewConroller.swift in Sources */,
+				F610EDCC275EFCF0000DFD05 /* GachaViewController.swift in Sources */,
+				F610EDCE275EFD74000DFD05 /* Purse.swift in Sources */,
+				F610EDC6275EC5D1000DFD05 /* GachaCell.swift in Sources */,
 				F610EDAE275C3E0E000DFD05 /* AppDelegate.swift in Sources */,
 				F610EDB0275C3E0E000DFD05 /* SceneDelegate.swift in Sources */,
+				F610EDC4275EBE78000DFD05 /* CustomButton.swift in Sources */,
+				F610EDCA275ED0CA000DFD05 /* MyGachas.swift in Sources */,
+				F610EDC8275EC6E3000DFD05 /* Gacha.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +394,18 @@
 		};
 		F610EDBF275C3E29000DFD05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95030B949F5D11A4A00B15D7 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = GachaConcept/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = GachaConcept/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lewisfreeman.Test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lewisfreeman.GachaConcept;
+				PRODUCT_NAME = GachaConcept;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +413,17 @@
 		};
 		F610EDC0275C3E29000DFD05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1399E7788851FA481102B894 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = GachaConcept/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lewisfreeman.Test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lewisfreeman.GachaConcept;
+				PRODUCT_NAME = GachaConcept;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F610EDA5275C3E0E000DFD05 /* Build configuration list for PBXProject "Test" */ = {
+		F610EDA5275C3E0E000DFD05 /* Build configuration list for PBXProject "GachaConcept" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F610EDBC275C3E29000DFD05 /* Debug */,
@@ -326,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F610EDBE275C3E29000DFD05 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		F610EDBE275C3E29000DFD05 /* Build configuration list for PBXNativeTarget "GachaConcept" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F610EDBF275C3E29000DFD05 /* Debug */,
